@@ -1,0 +1,7 @@
+Study date: 2026-08-08
+Required for proof checks: Python 3.10+ standard library
+Optional for heuristic replay: C++17 compiler with libstdc++
+Recorded container:
+Python 3.13.5
+g++ (Debian 14.2.0-19) 14.2.0
+Linux x86_64
