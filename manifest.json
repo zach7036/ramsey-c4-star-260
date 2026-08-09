@@ -1,0 +1,51 @@
+{
+  "study": {
+    "title": "Exact determination of the star-quadrilateral Ramsey number R(C4,K1,260)=277",
+    "author": "Zach Waddle",
+    "date": "2026-08-08",
+    "status": "complete research preprint; not peer reviewed",
+    "classification": "candidate minor breakthrough in the exact C4-versus-star Ramsey program, subject to external review"
+  },
+  "result": {
+    "definition": "f(n)=R(C4,K1,n)",
+    "previous_source_located_interval": [275, 277],
+    "new_exact_value": 277,
+    "lower_bound": {
+      "certificate_order": 276,
+      "ambient_graph": "simple orthogonal-polarity graph ER(17)",
+      "deleted_vertices": 31,
+      "edges": 2279,
+      "minimum_degree": 16,
+      "maximum_degree": 17,
+      "degree_distribution": {"16": 134, "17": 142},
+      "maximum_pair_codegree": 1,
+      "triangle_count": 638,
+      "complement_maximum_degree": 259,
+      "number_of_archived_deletion_lists": 4
+    },
+    "upper_bound": {
+      "hypothetical_order": 277,
+      "required_minimum_degree": 17,
+      "forced_regular_degree": 17,
+      "degree_sum": 4709,
+      "contradiction": "handshaking lemma"
+    }
+  },
+  "verification": {
+    "finite_geometry_reconstruction": "passed for four witnesses",
+    "raw_edge_list_independent_audit": "passed for four witnesses after regeneration",
+    "analytic_upper_bound_audit": "passed",
+    "negative_controls": 5,
+    "primary_search_replay_seed": 2603,
+    "primary_first_solution_iteration": 786389,
+    "reproduce": "run_all_checks.sh"
+  },
+  "primary_files": {
+    "paper_markdown": "paper/paper.md",
+    "primary_deletion_certificate": "data/deleted_points_seed2603.json",
+    "generator": "code/generate_witnesses.py",
+    "finite_geometry_verifier": "code/verify_witnesses.py",
+    "independent_verifier": "code/independent_edge_list_check.py"
+  },
+  "novelty_caution": "No prior exact report or matching certificate was found in the documented indexed search; this does not prove absence from all unpublished or poorly indexed work."
+}
